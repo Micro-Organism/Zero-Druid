@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: zero-druid-boot
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/zero?serverTimezone=UTC
+        username: root
+        password: root@123
+mybatis:
+    mapper-locations: classpath:mapper/*.xml
